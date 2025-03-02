@@ -1,0 +1,32 @@
+.section {
+  padding-bottom: 0;
+}
+.section {
+  padding: 70px 0;
+  position: relative;
+  background: #FFFFFF;
+  
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  
+}
+
+
+.backimg {
+
+  background-image:  url('C:/Windows/System32/angular-resume/src/assets/images/staticImage.jpg');
+  
+}
+
+.btn-primary {
+  background-color: #378C3F;
+  color: #FFFFFF;
+}
+
+
+@media (min-width: 768px) {
+  .col-md-9 {
+      flex: 0 0 75%;
+      max-width: 75%;
+  }
+}

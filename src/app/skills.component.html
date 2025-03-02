@@ -1,0 +1,21 @@
+<div class="section" id="skill">
+  <div class="container">
+   <div class="h4 text-center mb-4 title">Professional Skills</div>
+   <div class="card aos-init aos-animate" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+    <div class="card-body">
+      <div class="row">
+        <div class="col-md-6">
+           @for(skill of skills; track skill.id){
+           <h4>{{ skill.name }}</h4>
+           <div class="progress">
+            <div class="progress-bar" role="progressbar" [style.width]="skill.level" [attr.aria-valuenow]="skill.level" aria-valuemin="0" aria-valuemax="100"></div>
+          </div> 
+  }
+   
+  
+        </div>
+    </div>
+   </div>
+ </div>
+ </div>
+</div>

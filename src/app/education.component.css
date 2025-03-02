@@ -1,0 +1,23 @@
+.card {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.cc-experience-header {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+}
+
+.cc-experience-body {
+  font-size: 16px;
+  color: #333;
+}
+
+.card-body {
+  padding: 20px;
+}
+.section{
+  margin-top: 5%;
+}

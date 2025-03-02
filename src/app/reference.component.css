@@ -1,0 +1,101 @@
+/* Center the entire container */
+.reference-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f9f9f9;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Testimonial Card Styling - Larger Rectangle */
+.testimonial-card {
+  background-color: #ffffff;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 700px;  /* Increased width for larger rectangle */
+  height: 450px;  /* Increased height for a larger rectangle */
+  position: relative;
+  padding: 50px;  /* Adjusted padding for more space */
+  margin-bottom: 60px;
+  display: flex;
+  align-items: center;  /* Center content vertically */
+  justify-content: space-between;  /* Space out image and text */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: left;  /* Left-align the text for better readability */
+}
+
+/* Hover effect for testimonial cards */
+.testimonial-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Image Styling - Larger Circular Image */
+.testimonial-img {
+  width: 180px;  /* Increased size for the image */
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 30px;  /* Space between image and text */
+  border: 6px solid #007bff;
+  padding: 4px;
+}
+
+/* Name Styling - Larger Font */
+.testimonial-name {
+  font-size: 30px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Role Styling */
+.testimonial-role {
+  font-size: 20px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+/* Testimonial text styling */
+.testimonial-text {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.8;
+  font-style: italic;
+  max-width: 450px;  /* Limit the text width for better readability */
+}
+
+/* Navigation Buttons */
+.navigation-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+button {
+  background-color: transparent;
+  border: 3px solid #007bff;
+  color: #007bff;
+  padding: 16px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 22px;
+}
+
+button:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Add a simple fade-in effect for the images */
+.testimonial-img {
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; transform: scale(0.8); }
+  100% { opacity: 1; transform: scale(1); }
+}

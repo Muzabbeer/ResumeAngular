@@ -1,0 +1,18 @@
+<div class="reference-container">
+  <div *ngIf="!isLoading && testimonials.length > 0">
+    <div class="testimonial-card">
+      <img class="testimonial-img" [src]="testimonials[currentIndex].image" alt="{{ testimonials[currentIndex].name }}" />
+      <div>
+        <p class="testimonial-name">{{ testimonials[currentIndex].name }}</p>
+        <p class="testimonial-role">{{ testimonials[currentIndex].role }}</p>
+        <p class="testimonial-text">{{ testimonials[currentIndex].text }}</p>
+      </div>
+    </div>
+
+    <!-- Navigation Buttons -->
+    <div class="navigation-buttons">
+      <button (click)="goToPrevious()">&#8592;</button>
+      <button (click)="goToNext()">&#8594;</button>
+    </div>
+  </div>
+</div>

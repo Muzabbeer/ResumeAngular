@@ -1,0 +1,126 @@
+header img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+  }
+
+  div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+*, ::after, ::before {
+  box-sizing: inherit;
+}
+.section {
+  padding: 70px 0; 
+  position: relative; 
+   background: #FFFFFF; 
+   padding-bottom: 0;
+}
+
+.page-header .container {
+  height: 100%;
+  z-index: 1;
+  text-align: center;
+  position: relative;
+}
+
+.page-header.page-header-small {
+  height: 60vh;
+  max-height: 440px;
+}
+
+.profile-page .button-container {
+  text-align: center;
+  margin-top: -106px;
+}
+
+.btn.btn-icon.btn-lg, .navbar .navbar-nav > a.btn.btn-icon.btn-lg {
+  height: 3.6rem;
+  min-width: 3.6rem;
+  width: 3.6rem;
+}
+
+.page-header {
+
+  background-image:  url('C:/Windows/System32/angular-resume/src/assets/images/profile1.jpg');
+  
+}
+
+.txtCol{
+
+  color : darkblue;
+}
+
+
+.page-header {
+  height: 100vh;
+  max-height: 1050px;
+  padding: 0;
+  color: #FFFFFF;
+  position: relative;
+  background-position: center center;
+  background-size: cover;
+}
+
+.btn, .navbar .navbar-nav > a.btn {
+  border-width: 2px;
+  font-weight: 400;
+  font-size: 0.8571em;
+  line-height: 1.35em;
+  margin: 5px 1px;
+  border: none;
+  border-radius: 0.1875rem;
+  padding: 11px 22px;
+  cursor: pointer;
+  background-color: #888;
+  color: #FFFFFF;
+}
+
+.page-header .container > .content-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 0 15px;
+  color: #FFFFFF;
+  width: 100%;
+  max-width: 880px;
+}
+
+.btn.btn-icon, .navbar .navbar-nav > a.btn.btn-icon {
+  height: 2.375rem;
+  min-width: 2.375rem;
+  width: 2.375rem;
+  /* padding: 0; */
+  /* font-size: 0.9375rem; */
+  /* overflow: hidden; */
+  position: relative;
+  line-height: normal;
+}
+
+.btn-round {
+  border-width: 1px;
+  border-radius: 30px !important;
+  padding: 11px 23px;
+}
+
+.btn, .navbar .navbar-nav > a.btn {
+  border-width: 2px;
+  font-weight: 400;
+  font-size: 0.8571em;
+  line-height: 1.35em;
+  margin: 5px 1px;
+  border: none;
+  border-radius: 0.1875rem;
+  padding: 11px 22px;
+  cursor: pointer;
+  background-color: #35395d;
+  color: #FFFFFF;
+}
+.profile-page .button-container {
+  text-align: center;
+  margin-top: -106px;
+}

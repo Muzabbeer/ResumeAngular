@@ -1,0 +1,41 @@
+section {
+  padding: 30px;
+}
+
+.row {
+  display: flex
+;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.progress {
+  height: 25px;
+}
+
+.progress-container {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 100%;
+}
+
+*, ::after, ::before {
+  box-sizing: inherit;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+
+.card .card-body {
+  min-height: 190px;
+}
